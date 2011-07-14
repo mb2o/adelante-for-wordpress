@@ -1,0 +1,11 @@
+How to create a new Adelante theme?
+
+- go to http://colorexplorer.com/colorlibraries.aspx
+- select a nice color
+- click "select with color match" 
+- make a folder and a css for your theme by copying and renaming an existing theme
+- replace background-color value by search and replace with first color box value
+- replace a:hover value by search and replace with second color box value
+- determine a color between the #top and the #page-heading divs
+- use this color for: #wrap border-top, #teaser border-top and #nav-main color
+- in  replace the color overlay values by the values used for the anchor tag

@@ -1,0 +1,196 @@
+/* =GENERAL
+--------------------------------------------------------------------------------------------- */
+
+/* ------- Typography ------- */
+
+body {     
+    background-color: #696969;
+    }
+
+a {
+    color: #b5b5b5;
+    }    
+    a:hover {
+        color: #696969;
+        }
+    a:link { 
+        -webkit-tap-highlight-color: #ccc; 
+        }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #696969; 
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); 
+    }
+
+textarea:focus,       
+input:focus {
+    box-shadow: 0 0 8px #696969;
+    -webkit-box-shadow: 0 0 8px #696969; 
+    -moz-box-shadow: 0 0 8px #696969;
+    border:1px solid #696969; 
+    }
+      
+::-moz-selection {  
+    background: #696969; 
+    color: #fff; 
+    }
+::selection {  
+    background: #696969; 
+    color: #fff; 
+    }
+
+.tooltipsy {
+    color: #fff;
+    background: #696969;
+    }
+    
+            
+/* ------- Grid ------- */
+
+#wrap { 
+    background-color: #f7f7f7;
+    border-top: 1px solid #929292;
+    clear: both;
+    padding-bottom: 20px;
+}
+
+/* ------- Main menu ------- */
+
+#nav-main ul li a:hover, 
+#nav-main ul li.current-menu-item > a, 
+#nav-main ul li.current-menu-parent > a, 
+#nav-main ul li.current-menu-ancestor > a, 
+#nav-main ul li.current_page_item > a,
+#nav-main ul li:hover > a { 
+    color: #929292; 
+}
+
+/* ------- Page Header ------- */
+
+#page-heading {
+    background-color: #696969;
+    }
+
+#teaser {
+    border-top: 1px #929292 solid;
+    }          
+
+.slider-frame .preloader { 
+    background: url(DimGray/ajax-loader.gif) center center no-repeat !important;  
+    }
+    
+                 
+/* =CONTENT
+--------------------------------------------------------------------------------------------- */
+
+#main { 
+    background-color: #fff;
+    }
+    #main .container {
+        border: 1px solid #d1d1d1;
+        }
+         
+/* ------- Primary Sidebar ------- */
+
+#sidebar .widget .inner {
+    background: white;
+    border: 1px solid #d1d1d1;
+    }           
+#sidebar .widget h2,
+#sidebar .widget h3 {
+    background: #f5f6f7;
+    color: #696969; 
+    border-bottom: 1px solid #d1d1d1;
+    }  
+
+       
+/* FOOTER
+--------------------------------------------------------------------------------------------- */
+
+footer article .inner a:hover {
+    color: #f5f6f7;
+    } 
+
+#content-info {  
+    border-top: #929292 solid 2px;  
+    }
+    
+/* =Shortcodes
+--------------------------------------------------------------------------------------------- */
+
+/* ------- Imagebox ------- */
+
+input[type="submit"],
+.adelante-button {
+    background-color: #696969;
+    border-color: #696969;
+    }
+  
+/* ------- Dropcaps ------- */
+
+.dropcap1 {
+    color: #696969;
+    }
+.dropcap2{
+    background:transparent url(DimGray/sprite.png) no-repeat scroll -4px -4px;
+    }
+
+    
+/* WIDGETS & PLUGINS
+--------------------------------------------------------------------------------------------- */
+
+/* ------- WP pagenavi ------- */
+
+.wp-pagenavi span.current {
+    background: #696969;
+    border: 1px solid #696969;    
+    } 
+
+/* ------- Twitter Widget ------- */
+
+.twitter_bird {
+    background: transparent url(DimGray/sprite.png) no-repeat scroll left -73px;
+    }
+    
+/* ------- Flickr Widget ------- */
+
+#flickr h3 span {
+    color: #0061D8;
+    }
+    #flickr h3 span span {
+        color: #FF1183;
+        }
+#flickr a {
+    border: 1px solid #eee;
+    }
+    #flickr a img {
+        border: 1px solid #fff;
+        }
+div.flickr_badge_image {
+    background: #f5f5f5 none repeat scroll 0 0;
+    } 
+
+/* ------- Images ------- */
+
+.frame,
+.small_frame {
+
+    }
+.frame img{
+    background: #F5F5F5 none repeat scroll 0 0;
+    border: 1px solid #fff;   
+    }
+.small_frame img {
+    background: #F5F5F5 none repeat scroll 0 0;
+    border: 1px solid #fff;
+    }
+
+
+/* ------- Toggle Box ------- */
+
+h4.togglebox_title {
+    background: transparent url(DimGray/sprite.png) no-repeat scroll left -142px ;
+    }
+h4.clicked {
+    background: transparent url(DimGray/sprite.png) no-repeat scroll left -203px;
+    }

@@ -1,0 +1,197 @@
+/* =GENERAL
+--------------------------------------------------------------------------------------------- */
+
+/* ------- Typography ------- */
+
+body {     
+    background-color: #ff1493;
+    }
+
+a {
+    color: #ff1493;
+    }    
+    a:hover {
+        color: #b30e66;
+        }
+    a:link { 
+        -webkit-tap-highlight-color: #645f5b; 
+        }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #b30e66; 
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); 
+    }
+
+textarea:focus,       
+input:focus {
+    box-shadow: 0 0 8px #b30e66;
+    -webkit-box-shadow: 0 0 8px #b30e66; 
+    -moz-box-shadow: 0 0 8px #b30e66;
+    border:1px solid #b30e66; 
+    }
+         
+input[type="submit"],
+.adelante-button {
+    background-color: #ff1493;
+    border-color: #ff1493;
+    }
+    
+::-moz-selection {  
+    background: #b30e66; 
+    color: #fff; 
+    }
+::selection {  
+    background: #b30e66; 
+    color: #fff; 
+    }
+        
+.tooltipsy {
+    color: #fff;
+    background: #b30e66;
+    }
+    
+/* ------- Grid ------- */
+
+#wrap { 
+    border-top: 1px solid #ff57b2;
+    clear: both;
+    padding-bottom: 20px;
+}
+
+/* ------- Main menu ------- */
+       
+#nav-main ul li a:hover, 
+#nav-main ul li.current-menu-item > a, 
+#nav-main ul li.current-menu-parent > a, 
+#nav-main ul li.current-menu-ancestor > a, 
+#nav-main ul li.current_page_item > a,
+#nav-main ul li:hover > a { 
+    color: #ff57b2; 
+}
+
+/* ------- Page Header ------- */
+
+#page-heading {
+    background-color: #ff1493;
+    }
+
+#teaser {
+    border-top: 1px #ff57b2 solid;
+    }         
+
+.slider-frame .preloader { 
+    background: url(DeepPink/ajax-loader.gif) center center no-repeat !important;  
+    }
+    
+                 
+/* =CONTENT
+--------------------------------------------------------------------------------------------- */
+
+#main { 
+    background-color: #fff;
+    }
+    #main .container {
+        border: 1px solid #d1d1d1;
+        }
+                                                                                                                                                                                                                                                                                                                 
+/* ------- Primary Sidebar ------- */
+
+#sidebar .widget .inner {
+    border: 1px solid #d1d1d1;
+    }
+    #sidebar .widget .inner {      
+        background: white;
+        }            
+#sidebar .widget h2 {
+    background: #f5f6f7;
+    color: #b30e66; 
+    border-bottom: 1px solid #d1d1d1;
+    }
+#sidebar .widget h3 {
+    background: #f5f6f7;
+    color: #b30e66;
+    border-bottom: 1px solid #d1d1d1;
+    }
+         
+/* FOOTER
+--------------------------------------------------------------------------------------------- */
+
+footer article .inner a:hover {
+    color: #b30e66;
+    } 
+
+#content-info {  
+    border-top: #ff57b2 solid 2px;  
+    }
+    
+/* =Shortcodes
+--------------------------------------------------------------------------------------------- */
+  
+/* ------- Dropcaps ------- */
+
+.dropcap1 {
+    color: #b30e66;
+    }
+.dropcap2{
+    background:transparent url(DeepPink/sprite.png) no-repeat scroll -4px -4px;
+    }
+
+    
+/* WIDGETS & PLUGINS
+--------------------------------------------------------------------------------------------- */
+
+/* ------- WP pagenavi ------- */
+
+.wp-pagenavi span.current {
+    background: #ff1493;
+    border: 1px solid #ff1493;    
+    } 
+
+/* ------- Twitter Widget ------- */
+
+.twitter_bird {
+    background: transparent url(DeepPink/sprite.png) no-repeat scroll left -73px;
+    }
+    
+/* ------- Flickr Widget ------- */
+
+#flickr h3 span {
+    color: #0061D8;
+    }
+    #flickr h3 span span {
+        color: #FF1183;
+        }
+#flickr a {
+    border: 1px solid #eee;
+    }
+    #flickr a img {
+        border: 1px solid #fff;
+        }
+div.flickr_badge_image {
+    background: #f5f5f5 none repeat scroll 0 0;
+    } 
+
+/* ------- Images ------- */
+
+.frame,
+.small_frame {
+
+    }
+.frame img{
+    background: #F5F5F5 none repeat scroll 0 0;
+    border: 1px solid #fff;   
+    }
+.small_frame img {
+    background: #F5F5F5 none repeat scroll 0 0;
+    border: 1px solid #fff;
+    }
+
+
+/* ------- Toggle Box ------- */
+
+h4.togglebox_title {
+    background: transparent url(DeepPink/sprite.png) no-repeat scroll left -142px ;
+    }
+h4.clicked {
+    background: transparent url(DeepPink/sprite.png) no-repeat scroll left -203px;
+    }

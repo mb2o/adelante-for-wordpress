@@ -1,0 +1,136 @@
+.clearfix:before, 
+.clearfix:after { 
+    content: "."; 
+    display: block; 
+    height: 0; 
+    overflow: hidden; 
+    }
+.clearfix:after { 
+    clear: both; 
+    }
+.clearfix { 
+    zoom: 1; 
+    }
+
+/* search engines blocked message to match .button-primary */
+#privacy-on-link { 
+	color: #fff !important; 
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	background: #21759B url(../../../../../wp-admin/images/button-grad.png) repeat-x scroll left top; 
+	padding: 3px 11px !important; 
+	-moz-border-radius: 11px; 
+	-webkit-border-radius: 11px; 
+	border-radius: 11px; 
+	border: 1px solid #298CBA; 
+	font-weight: 700; 
+	font-family: "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+	margin-left: 6px;
+	line-height: 13px !important;
+    } 
+    #privacy-on-link:hover { 
+        text-decoration: none !important; 
+        border: 1px solid #13455B; 
+        color: #EAF2FA !important; 
+        }
+
+#editorcontainer #content {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 14px;
+    }
+
+ul.options li { 
+    clear: both; 
+    margin-bottom: 8px; 
+    }
+ul.options li .container { 
+    float: left; 
+    }
+ul.options label.settings-label { 
+    font-size: 1em; 
+    font-weight: 700; 
+    float: left; 
+    width: 250px; 
+    margin: 3px 0 0 0; 
+    }
+ul.options input.text { 
+    float: left; 
+    width: 400px; 
+    }
+ul.options input.integer {
+    float: left; 
+    width: 70px;    
+    }    
+ul.options span.note { 
+    color: #888;
+    clear: both; 
+    float: left; 
+    margin: 3px 0 8px 252px; 
+    display: block; 
+    font-size: 0.8em; 
+    line-height: 1.5em; 
+    }
+    
+#teaser_image_custom,
+#theme textarea {
+    font-size: 11px !important;
+    width: 530px;
+    height: 70px;
+    }
+    
+/* ------- Range input ------- */
+
+.range-input-wrap .slider {
+    background-color: #fff;
+    height: 9px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #333;
+    width: 150px;
+    float: left;
+    clear: right;
+    margin-top: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: inset 0 0 8px #000;
+    -moz-box-shadow: inset 0 0 8px #000;
+    -webkit-box-shadow: inset 0 0 8px #000;
+}
+.range-input-wrap .progress {
+    height: 9px;
+    background-color: #eee;
+    display: none;
+    opacity: 0.6;
+}
+.range-input-wrap .handle {
+    background-color: #efefef;
+    height: 20px;
+    width: 20px;
+    top: -8px;
+    position: absolute;
+    display: block;
+    margin-top: 1px;
+    border: 1px solid #000;
+    cursor: move;
+    box-shadow: 0 0 6px #000;
+    -moz-box-shadow: 0 0 6px #000;
+    -webkit-box-shadow: 0 0 6px #000;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.range-input-wrap .range {
+    border: 1px solid #DFDFDF;
+    float: left;
+    margin: 3px 0 0 15px;
+    padding: 3px;
+    text-align: center;
+    width: 50px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.range-input-wrap span {
+    padding:5px;
+    float: left;
+}
