@@ -1353,6 +1353,21 @@ input[type="submit"],
         
 {$button_css}
 
+.download{background-image:url('{$image['path']}/downloadnow.png');display:inline-block;width:248px;height:80px;}
+
+.wp-theme{background-position:0 0;}
+.wp-theme:hover{background-position:-243px 0;}
+
+.wp-plugin{background-position:0 -82px;}
+.wp-plugin:hover{background-position:-243px -82px;}		
+
+.sourcecode{background-position:0 -174px;}
+.sourcecode:hover{background-position:-243px -174px;}
+
+.software{background-position:0 -256px;}
+.software:hover{background-position:-243px -256px;}
+
+
 /* ------- Portfolio ------- */
 
 ul#portfolio-filter{ margin: -20px 0; padding: 0; height: 64px; padding-left: 70px; line-height: 64px; }

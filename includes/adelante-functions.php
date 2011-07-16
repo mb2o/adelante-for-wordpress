@@ -346,7 +346,7 @@ function adelante_posts_slider( $width = 960 )
                     </a>
                     <div class="postsnip">
                         <h2><a href="<?php the_permalink(); ?>"><?php echo $post->post_title; ?></a></h2>
-                        <?php echo do_shortcode( substr( $post->post_content, 0, get_option("adelante_slider_post_character_count" ) ) ); ?>...
+                        <?php the_excerpt(); ?>
                         <p></p><div class="clearboth"></div>
                         <a class="adelante-button white" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">Read More...</a>
                     </div>
